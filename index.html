@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Resume</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section>
-        <header>
-            <h1>W. Kyle Evans</h1>
-        </header>
-    </section>
-    <h3>Web Developer</h3>
-    <img src="./assets/images/me.jpg" height="200" alt="a picture of me, a handsome man" >
+    <header>
+        <div class="top">
+            <h1 class="title name">W. Kyle Evans</h1>
+            <h3 class="title job">Web Developer</h3>
+        </div>
+        <img class="profile" src="./assets/images/me.jpg" height="200" alt="a picture of me, a handsome man" >
+    </header>
     <hr/>
-    <section>
-        <h2><a href="./contact.html">Contact Information</a></h2><hr/>
-    </section>
-    <section>
+    <nav>
+        <h2 id="contactLink"><a href="./contact.html">Contact Information</a></h2><hr/>
+    </nav>
+    <div class="summary">
         <h1>Summary</h1>
         <p>I have learned in my career that I have a deep desire to be a champion for a product/service and help make people's work lives more effective and fulfilling. As an experienced IT professional and adept leader I have been able to implement this purpose throughout my career from a variety of perspectives. Those perspectives include roles like supervisor, product owner, analyst, developer, and project manager. </p>
-    </section>
+    </div>
     <hr/>
         <h1>Work Experience</h1>
-    <section>
+    <div class="exp">
         <h3>USI Insurance Services - Systems Analyst</h3>
         <h4>Nov. 2021 - Current </h4>
         <h5>Remote - Fort Collins, CO </h5>
@@ -36,8 +37,8 @@
             <li>Analyzed and massaged large client/policy data sets for consistency and clarity.</li>
             <li>Supported system integration efforts to ensure seamless interoperability between various software applications.</li>
         </ul>
-    </section><br>
-    <section>
+    </div><br>
+    <div class="exp">
         <h3>Platte River Power Authority - Application Admin</h3>
         <h4>May 2021 - Nov. 2021</h4>
         <h5>Hybrid - Fort Collins, CO</h5>
@@ -46,8 +47,8 @@
             <li>Troubleshot complex issues, employing analytical skills to determine effective solutions and restore functionality.</li>
             <li>Integrated diverse systems by collaborating with cross-functional teams to streamline operations and improve efficiency.</li>
         </ul>
-    </section><br/>
-    <section>
+    </div><br/>
+    <div class="exp">
         <h3>Farm Bureau Insurance - Web Developer</h3>
         <h4>Nov. 2019 - May 2021 </h4>
         <h5>In Person - Indianapolis, IN</h5>
@@ -59,7 +60,8 @@
             <li>Highly focused with Tech Lead on architecture design and best practices</li>
             <li>Utilized Java, SQL, VB Script, JIRA, Bit Bucket, and other tools on a Kanban agile team.</li>
         </ul>
-    </section><br>
+    </div><br>
+    <div class="exp">
         <h3>Farm Bureau Insurance - Team Leader Imaging Services</h3>
         <h4>Dec. 2015 - Nov. 2019</h4>
         <h5>In Person - Indianapolis, IN</h5>
@@ -71,24 +73,24 @@
             <li>Coordinated team activities to promote effective communication and collaboration among members.</li>
             <li>Managed imaging operations to streamline workflow and improve customer satisfaction.</li>
         </ul>
-    </section><br/>
+    </div><br/>
     <hr/>
-    <section>
+    <div class="education">
         <h2>Education</h2>
         <h3>Indiana University Purdue University - Indianapolis</h3>
         <h4>Bachelors of Science | Organizational Leadership</h4>
         <h5>May 2019</h5>
-    </section><br/>
-    <section>
+    </div><br/>
+    <div class="skills">
         <h2>Skills</h2>
         <p>Enthusiasm, Leadership Mindset, Team Building, Integrity, Character, Resilience, Collaboration, Organizational Minded, Business Processes, Agile Methodologies, Data Analyses, Process Improvement, Project Management, Requirements Gathering, SDLC, SQL, VbScript, Java, JavaScript, Microsoft Excel</p>
         <br/>
-    </section>
-    <section>
+    </div>
+    <div class="footer">
         <footer>
             <small>W. Kyle Evans | Phone: 555.376.2565 | Email: x@gmail.com | GitHub: <a href="https://github.com/RealmAgent">github.com/RealmAgent</a></small>
         </footer>
-    </section>
+    </div>
 
 </body>
 </html>

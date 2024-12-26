@@ -1,0 +1,75 @@
+h1{
+    margin: 0px 0px 25px 0px;
+    font-size: 24pt;
+    font-stretch:ultra-expanded;
+    color:maroon;
+}
+header{
+    text-align: center;
+    color: slateblue;
+}
+.name{
+    font-size: 36pt;
+    margin: 0px;
+}
+.job{
+    padding: -80px;
+    margin: 2px;
+}
+.profile{
+    margin: 8px;
+}
+.top{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    padding: -15px;
+    margin: -8px;
+    text-align: center;
+}
+#contactLink a{
+    text-decoration: none;
+    color: slateblue;
+}
+.summary h1{
+    margin: 0px;
+
+}
+.exp{
+    margin-top: -5px;   
+}
+h3{
+    margin: 0px 0px 3px 8px;
+} 
+h4{
+    margin: 0px 0px 3px 8px;
+}
+h5{
+    margin: 0px 0px 3px 8px;
+}
+.education{
+    margin: 0px 0px 3px 8px;
+}
+.education h2{
+    margin: 0px 0px 5px 0px;
+
+}
+
+.skills{
+    margin: 15px 0px 3px 8px;
+}
+.skills h2{
+    margin: 0px 0px 5px 0px;
+}
+p{
+    margin-right: 15%;
+    margin-left: 8px;
+    text-align: left
+}
+html{
+    margin-left: 18%;
+    margin-right: 18%;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
